@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 500px;
+  border-radius: 5px;
+  gap: 10px;
+  box-shadow: 0px 0px 4px 1px white;
+}
+
+.passion {
+  background-image: url(/assets/passion.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.banana {
+  background-image: url(/assets/banan.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.mango {
+  background-image: url(/assets/mango.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.apple {
+  background-image: url(/assets/äpple.png);
+  background-position: center;
+  background-size: cover;
+}
+
+p,
+h3 {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px 1px black;
+}
